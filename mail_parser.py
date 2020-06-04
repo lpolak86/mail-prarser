@@ -125,5 +125,5 @@ if __name__ == "__main__":
     "2019-04-09 06:00", "end_time": "2019-04-09 10:00", "service": "IC-99999"}
     """
 
-    ticket = MailParser('C:\\Users\\Lukasz\\Documents\\python\\packetfabric\\provider_email.txt')
+    ticket = MailParser('provider_email.txt')
     print(ticket.get_ticket_info())
